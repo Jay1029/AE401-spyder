@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jun  2 20:17:21 2020
+
+@author: User
+"""
+
+
+import turtle
+jay = turtle.Turtle()
+jay.shape('turtle')
+jay.color('gold')
+canvas=turtle.Screen()
+canvas.title('my window')
+canvas.bgcolor('black')
+a=9
+for i in range(123):
+    jay.forward(15)
+    jay.right(a)
+    a=a + 1 
+turtle.done()
+turtle.bye()

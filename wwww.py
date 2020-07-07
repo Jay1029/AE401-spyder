@@ -11,7 +11,7 @@ words=[]
 answer=[]
 
 print('########################')
-print('#Python蘋果店進出貨系統#')
+print('#Python字典#')
 print('########################')
 
 while True:

@@ -37,8 +37,10 @@ while True:
             break
     elif sel=='2': 
         us = sorted(words)
+        file = open('tv.txt','w')
         for i in us:
-            print(i,"是",words[i])
+            file.write(print(i,"是",words[i]))
+            file.close()
     elif sel=='3': 
         eng = input('填入英文')
         if eng in words:
